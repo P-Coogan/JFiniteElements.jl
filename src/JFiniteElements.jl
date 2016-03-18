@@ -1,5 +1,8 @@
 module JFiniteElements
-
+include("Bases.jl")
+include("Cells.jl")
+include("PointSets.jl")
+include("Bernstein.jl")
 using Bases, Cells, PointSets
 export Bases, Cells, PointSets
 
